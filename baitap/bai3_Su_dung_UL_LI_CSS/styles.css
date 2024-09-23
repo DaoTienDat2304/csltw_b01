@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  padding: 20px;
+  font-size: 14px; /* Giảm kích thước chữ tổng thể */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+  font-size: 24px; /* Giảm kích thước tiêu đề chính */
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.logo {
+  width: 20%;
+}
+
+.logo h2 {
+  font-size: 24px; /* Giảm kích thước logo */
+}
+
+#language {
+  margin: 15px 0;
+  padding: 5px;
+  font-size: 14px; /* Giảm kích thước chữ trong dropdown */
+}
+
+/* CSS cho danh sách các mạng xã hội */
+.social-links {
+  list-style-type: none;
+  margin-top: 15px;
+}
+
+.social-links li {
+  margin-bottom: 10px;
+}
+
+.social-links a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  display: flex;
+  align-items: center; /* Căn giữa hình ảnh với chữ */
+}
+
+.social-links img {
+  width: 20px; /* Kích thước ảnh */
+  height: 20px;
+  margin-right: 10px; /* Khoảng cách giữa ảnh và text */
+}
+
+.social-links a:hover {
+  text-decoration: underline; /* Gạch chân khi di chuột qua liên kết mạng xã hội */
+}
+
+.list-sections {
+  display: flex;
+  flex-wrap: wrap; /* Để các mục tự động xuống dòng khi không đủ chỗ */
+  gap: 40px;
+  width: 75%;
+}
+
+.section {
+  width: calc(25% - 40px); /* Chia đều các mục thành 4 cột */
+}
+
+.section h3 {
+  font-size: 18px; /* Giảm kích thước tiêu đề của từng phần */
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.section ul {
+  list-style-type: none;
+}
+
+.section ul li {
+  margin-bottom: 8px;
+  font-size: 13px; /* Giảm kích thước các mục danh sách */
+}
+
+.section ul li a {
+  text-decoration: none;
+  color: #555; /* Màu chữ ban đầu */
+  cursor: pointer; /* Thay đổi con trỏ chuột khi di chuột qua các mục */
+  transition: color 0.3s ease, text-decoration 0.3s ease; /* Thêm hiệu ứng chuyển đổi màu và gạch chân */
+}
+
+.section ul li a:hover {
+  color: #000;
+  text-decoration: underline; /* Gạch chân khi di chuột qua các mục */
+}
