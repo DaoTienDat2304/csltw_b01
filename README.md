@@ -1,1 +1,1 @@
-các bài tập em up cả folder ở trong mục bài tập ạ
+các bài tập em up hết trong folder baitap ạ
