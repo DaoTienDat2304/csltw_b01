@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout with Grid</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .header {
+            background-color: #d3d3d3; 
+            text-align: center;
+            padding: 20px;
+        }
+        .footer {
+            background-color: #f1f1f1;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            padding: 0;
+            margin: 0;
+        }
+        .column {
+            height: 200px;
+            box-sizing: border-box;
+        }
+        .column1 {
+            background-color: #bbb;
+        }
+        .column2 {
+            background-color: #ccc;
+        }
+        .column3 {
+            background-color: #ddd;
+        }
+    </style>
+</head>
+<body>
+    <div class="header"><h1>Header</h1></div>
+    <div class="container">
+        <div class="column column1">Column</div>
+        <div class="column column2">Column</div>
+        <div class="column column3">Column</div>
+    </div>
+    <div class="footer">Footer</div>
+</body>
+</html>
