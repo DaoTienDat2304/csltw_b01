@@ -1,0 +1,182 @@
+/* General Styles */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #293144;
+  font-family: Arial, sans-serif;
+  color: white;
+  overflow: hidden;
+}
+
+/* Banner Section */
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 50px;
+  height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+}
+
+.text-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 30%;
+  z-index: 2; 
+}
+
+.brand-logo img {
+  width: 70px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  position: absolute;
+  top: 2%;
+  left: 3%;
+}
+
+.product-title {
+  font-size: 56px;
+  margin-bottom: 10px;
+}
+
+.rating img {
+  width: 120px; /* Kích thước đã tăng lên */
+  height: auto;
+  margin: 0px 0;
+}
+
+.description {
+  font-size: 18px;
+  margin: 1px 0;
+}
+
+.price {
+  font-size: 24px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  font-weight: 550;
+  font-family: Montserrat, sans-serif;
+}
+
+.cta-button {
+  background-color: #FF3366;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  width: 150px;
+  border-radius: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Social Media Icons */
+.social-media-icons {
+  display: flex;
+  position: absolute;
+  bottom: 30px;
+  left: 100px;
+  z-index: 9999;
+}
+
+.social-media-icons img {
+  width: 30px;
+  margin-right: 15px;
+}
+
+.social-media-icons a {
+  display: inline-block;
+  transition: transform 0.2s ease-in-out;
+}
+
+.social-media-icons a:hover {
+  transform: scale(1.1);
+}
+
+.image-section {
+  position: absolute;
+  right: -3%;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+
+.image-section img {
+  max-width: 80%;
+  height: auto;
+}
+
+/* Watch Trailer Button */
+.watch-trailer {
+  position: absolute;
+  bottom: 30px;
+  right: 110px;
+  width: 200px;
+  z-index: 999;
+}
+
+.trailer-button {
+  display: flex;
+  align-items: center;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 50px;
+  cursor: pointer;
+  z-index: 9999;
+  transition: transform 0.3s ease;
+}
+
+.trailer-button:hover {
+  transform: scale(1.1);
+}
+
+/* Right Background Image */
+.right-image {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+/* Text Overlay */
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Background Image */
+.background-image {
+  width: 100%;
+  height: auto;
+  max-width: none;
+  max-height: none;
+  opacity: 0.1;
+}
+
+.menu-icon {
+  position: absolute;
+  top: 50px;
+  right: 35px;
+  z-index: 1000;
+}
+
+.right-arrow {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  z-index: 1000;
+}
