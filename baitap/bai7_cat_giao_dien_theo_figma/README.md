@@ -1,5 +1,5 @@
 Họ và tên: Đào Tiến Đạt
-Lóp: 23IT1
+Lớp: 23IT1
 MSV: BIT230081
 
 Link glitch:
