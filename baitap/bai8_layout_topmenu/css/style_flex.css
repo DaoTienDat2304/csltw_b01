@@ -1,0 +1,60 @@
+/* Reset */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* End Reset */
+
+/* Header bar */
+.header_bar {
+    height: 30px;
+    width: 100%;
+    background: #FFF;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between; /* Tạo khoảng trắng giữa hai bên */
+    align-items: center; 
+    height: 100%;
+}
+
+.left-menu,
+.right-menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu-item {
+    margin: 0 10px; 
+    height: 30px;
+    line-height: 30px; 
+}
+
+/* Các lớp */
+.icon_user {
+    background: url("../images/icon_user.png") no-repeat center left;
+    background-size: 16px;
+    padding-left: 20px; /* Khoảng cách cho icon */
+}
+
+.icon_cart {
+    background: url("../images/icon_cart.png") no-repeat center;
+    height: 16px;
+    width: 16px;
+    background-size: contain;
+}
+
+.icon_eye {
+    background: url("../images/icon_eye.png") no-repeat center;
+    height: 16px;
+    width: 16px;
+    background-size: contain;
+}
