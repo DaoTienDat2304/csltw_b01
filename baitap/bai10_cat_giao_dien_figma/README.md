@@ -4,7 +4,7 @@ MSV: BIT230081
 
   
 Cắt giao diện theo thiết kế figma (P1)
-Glitch:
+Glitch: https://troubled-lilac-mapusaurus.glitch.me/baitap/bai10_cat_giao_dien_figma/
 
 Ảnh: ![image](https://github.com/user-attachments/assets/8f9e3377-d7e6-43e4-8f61-7287c97fb59b)
 
